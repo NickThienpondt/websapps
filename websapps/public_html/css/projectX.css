@@ -1,0 +1,341 @@
+body{
+	margin: 0;
+}
+	
+#header{
+	z-index: 9999;
+	position:relative;
+	height: 150px;
+	padding-top: 80px;
+}
+
+#title_first_letter{
+	color: #8DCE02;	
+	font-family: 'Bowlby One', cursive;
+	font-size: 150px;
+}
+
+#title{
+	font-family: 'Bowlby One', cursive;
+	color: #9A9E93;
+	font-size: 100px;
+}
+
+#title_middle_sign{
+	color: #D9DAD7;
+	font-family: 'Cookie', cursive;
+	font-size: 250px;
+	text-align:center;
+}
+
+#title_middle_div{
+	text-align: left;	
+	height: 80px;
+	padding: 2% 0 0 4%;
+}
+
+#div_bol{
+	position:fixed;
+	bottom: 0;
+	right: 0;
+	z-index: 1;
+        width: 40%;
+	height: 85%; 
+}
+
+#img_bol{
+	width: 100%;
+	height: 100%;
+}
+
+/**
+  * Content
+**/
+
+#content{
+
+}
+
+#content_title{
+    padding: 2% 0 1% 4%;
+}
+
+#row_title {
+    z-index: 9998;
+    position:relative;
+}
+
+#title_text{
+    padding-bottom: 5px;
+    border-bottom: 1px solid #8DCE02;
+}
+
+#row_text{
+    z-index: 9997;
+    position:relative;
+    padding: 2% 0 0 0;
+}
+
+#row_title_text{
+   padding: 0 0 0 4%; 
+   font-family: 'Verdana', cursive;
+   color: #9A9E93;
+   font-size: 15px;
+   font-weight: bold;
+}
+
+.baseSentence {
+    color: #8DCE02;	
+}
+
+
+
+/** 
+  * Footer
+**/
+
+#footer{
+    position:fixed;
+    bottom: 0;
+    z-index: 9999;
+    color: #4F6171;
+    font-weight: bold;
+}
+
+.social_img{
+    padding: 0 0 0 10px;	
+}
+
+#social{
+    padding: 5px 0 0 10px;	
+    float:right;
+}
+
+#copyright{
+    float:left;
+    width: 47%;
+    padding: 0 0 0 3%;
+}
+
+#social_right {
+    width: 40%;
+    float: left;
+    padding: 0 3% 0 0;
+}
+
+#content_title {
+    color: #727371;
+    font-family: 'Verdana', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#nolink {
+    text-decoration: none;
+    color: black;
+    float: left;
+}
+
+#socialf{
+    float: left;
+    width: 50%;
+}
+
+#socialt{
+    float: left;
+    width: 50%;
+}
+
+
+/* Media Query */
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+	body{
+
+	}
+	
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { 
+
+	body{
+
+	}
+
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+
+	#title_first_letter{
+		color: #8DCE02;	
+		font-family: 'Candal', sans-serif;
+		font-size: 40px;
+	}
+	
+	#title{
+		font-family: 'Candal', sans-serif;
+		color: #9A9E93;
+		font-size: 30px;
+	}
+	
+	#title_middle_sign{
+		color: #D9DAD7;
+		font-family: 'Cookie', cursive;
+		font-size: 60px;
+		text-align:center;
+	}
+	
+	#title_middle_div{
+		text-align: left;	
+		height: 40px;
+		padding: 2% 0 0 4%;
+	}
+        
+        #div_bol{
+            position:fixed;
+            bottom: 0;
+            right: 0;
+            z-index: 1;
+            width: 35%;
+            height: 40%; 
+        }
+
+        #img_bol{
+                width: 100%;
+                height: 100%;
+        }
+        
+        #row_text{
+            z-index: 9997;
+            position:relative;
+            padding: 2% 0 0 3%;
+            width: 40%;
+        }
+        
+        #row_title_text {
+            font-size: 12px;
+        }
+        
+        #line {
+            height: 10px;
+        }
+       
+        #copyright{
+            float:left;
+            width: 30%;
+            padding: 0 0 0 3%;
+            font-size: 13px;
+        }
+
+        #social_right {
+            width: 50%;
+            float: right;
+            padding: 0 3% 0 0;
+        }
+
+        #content_title {
+            color: #727371;
+            font-family: 'Verdana', cursive;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        #nolink {
+            text-decoration: none;
+            color: black;
+            float: left;
+        }
+
+        #socialf{
+            float: left;
+            width: 40%;
+        }
+
+        #socialt{
+            float: left;
+            width: 40%;
+        }
+
+
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+        
+        #header{
+                z-index: 9999;
+                position:relative;
+                height: 50px;
+                padding-top: 20px;
+        }
+
+	#title_first_letter{
+		color: #8DCE02;	
+		font-family: 'Candal', sans-serif;
+		font-size: 40px;
+	}
+	
+	#title{
+		font-family: 'Candal', sans-serif;
+		color: #9A9E93;
+		font-size: 30px;
+	}
+	
+	#title_middle_sign{
+		color: #D9DAD7;
+		font-family: 'Cookie', cursive;
+		font-size: 60px;
+		text-align:center;
+	}
+	
+	#title_middle_div{
+		text-align: center;	
+		height: 40px;
+		padding: 2% 0 0 4%;
+	}
+        
+        #div_bol{
+            position:fixed;
+            bottom: 0;
+            right: 0;
+            z-index: 1;
+            width: 55%;
+            height: 55%; 
+        }
+
+        #img_bol{
+                width: 100%;
+                height: 100%;
+        }
+        
+        #row_text{
+            z-index: 9997;
+            position:relative;
+            padding: 2% 0 0 3%;
+            width: 100%;
+        }
+        
+        #row_title_text {
+            font-size: 12px;
+        }
+        
+        #line {
+            height: 10px;
+        }
+
+}
+
+
+/* Helper classes - Remove when project is done*/
+
+.greenHelper{
+	background-color: green;
+}
+
+.brownHelper{
+	background-color: brown;	
+}
