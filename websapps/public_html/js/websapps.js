@@ -6,9 +6,9 @@
 
 $(document).ready(function() {
     
-    $('#title_text').html('Developments');
-    $('#row_title_text').html(  'We create serveral types of systems ' +
-                                'professional sites, e-commerce sites, web & mobile apps.<br><br>' + 
+    $('#title_text').html('Wie zijn we');
+    $('#row_title_text').html(  'Webs & Apps is een creatieve eenmanszaak opgericht in 2013. ' +
+                                'Door zijn schaal en "No Nonsense"-mentaliteit kan Webs & Apps er steeds naar streven om zijn producten af te leveren met de best mogelijke kwaliteit voor een betaalbare prijs. <br><br>' + 
                                 '<span class="baseSentence">No nonsense, just Quality!</span>');
     
     

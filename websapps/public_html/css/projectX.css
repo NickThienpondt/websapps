@@ -1,5 +1,18 @@
 body{
 	margin: 0;
+        background: #cccccc no-repeat center center fixed; /* Old browsers */
+/*        background: -moz-linear-gradient(top,  #ffffff 0%, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%) no-repeat center center fixed; /* FF3.6+ 
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(50%,#f1f1f1), color-stop(51%,#e1e1e1), color-stop(100%,#f6f6f6)) no-repeat center center fixed;  Chrome,Safari4+ 
+        background: -webkit-linear-gradient(top,  #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%) no-repeat center center fixed;  Chrome10+,Safari5.1+ 
+        background: -o-linear-gradient(top,  #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%) no-repeat center center fixed;  Opera 11.10+ 
+        background: -ms-linear-gradient(top,  #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%) no-repeat center center fixed;  IE10+ 
+        background: linear-gradient(to bottom,  #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%) no-repeat center center fixed;  W3C 
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 ) no-repeat center center fixed;  IE6-9 
+        */
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
 }
 	
 #header{
@@ -39,8 +52,8 @@ body{
 	bottom: 0;
 	right: 0;
 	z-index: 1;
-        width: 40%;
-	height: 85%; 
+        width: 35%;
+	height: auto; 
 }
 
 #img_bol{
@@ -161,7 +174,29 @@ body{
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) { 
 
-	body{
+	#title_first_letter{
+		color: #8DCE02;	
+		font-family: 'Candal', sans-serif;
+		font-size: 125px;
+	}
+	
+	#title{
+		font-family: 'Candal', sans-serif;
+		color: #9A9E93;
+		font-size: 75px;
+	}
+	
+	#title_middle_sign{
+		color: #D9DAD7;
+		font-family: 'Cookie', cursive;
+		font-size: 175px;
+		text-align:center;
+	}
+	
+	#title_middle_div{
+		text-align: left;	
+		height: 60px;
+		padding: 2% 0 0 4%;
 
 	}
 
@@ -201,7 +236,7 @@ body{
             right: 0;
             z-index: 1;
             width: 35%;
-            height: 40%; 
+            height: auto; 
         }
 
         #img_bol{
@@ -304,7 +339,7 @@ body{
             right: 0;
             z-index: 1;
             width: 55%;
-            height: 55%; 
+            height: auto; 
         }
 
         #img_bol{
