@@ -1,18 +1,18 @@
 body{
 	margin: 0;
-        background: #cccccc no-repeat center center fixed; /* Old browsers */
-/*        background: -moz-linear-gradient(top,  #ffffff 0%, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%) no-repeat center center fixed; /* FF3.6+ 
+/*        background: #cccccc no-repeat center center fixed;  Old browsers 
+        background: -moz-linear-gradient(top,  #ffffff 0%, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%) no-repeat center center fixed;  FF3.6+ 
         background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(50%,#f1f1f1), color-stop(51%,#e1e1e1), color-stop(100%,#f6f6f6)) no-repeat center center fixed;  Chrome,Safari4+ 
         background: -webkit-linear-gradient(top,  #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%) no-repeat center center fixed;  Chrome10+,Safari5.1+ 
         background: -o-linear-gradient(top,  #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%) no-repeat center center fixed;  Opera 11.10+ 
         background: -ms-linear-gradient(top,  #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%) no-repeat center center fixed;  IE10+ 
         background: linear-gradient(to bottom,  #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%) no-repeat center center fixed;  W3C 
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 ) no-repeat center center fixed;  IE6-9 
-        */
+        
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
-        background-size: cover;
+        background-size: cover;*/
 }
 	
 #header{
@@ -102,14 +102,14 @@ body{
 }
 
 #left_content {
-    width: 30%;
+    width: 20%;
     height: 100%;
     float: left;
     
 }
 
 #right_content {
-    width: 70%;
+    width: 80%;
     height: 100%;
     float:left;
 }
@@ -120,13 +120,17 @@ body{
     font-family: 'Verdana';
     color: white;
     font-size: 18px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-bottom: 5px
 }
 
 #menu {
     background-color: #D9DAD7;
     width: 50%;
     margin: 10% 25% 0 25%;
-    height: 50%;
+    height: 60%;
     
 }
 
