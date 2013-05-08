@@ -1,22 +1,10 @@
 body{
 	margin: 0;
-/*        background: #cccccc no-repeat center center fixed;  Old browsers 
-        background: -moz-linear-gradient(top,  #ffffff 0%, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%) no-repeat center center fixed;  FF3.6+ 
-        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(50%,#f1f1f1), color-stop(51%,#e1e1e1), color-stop(100%,#f6f6f6)) no-repeat center center fixed;  Chrome,Safari4+ 
-        background: -webkit-linear-gradient(top,  #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%) no-repeat center center fixed;  Chrome10+,Safari5.1+ 
-        background: -o-linear-gradient(top,  #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%) no-repeat center center fixed;  Opera 11.10+ 
-        background: -ms-linear-gradient(top,  #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%) no-repeat center center fixed;  IE10+ 
-        background: linear-gradient(to bottom,  #ffffff 0%,#f1f1f1 50%,#e1e1e1 51%,#f6f6f6 100%) no-repeat center center fixed;  W3C 
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 ) no-repeat center center fixed;  IE6-9 
-        
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;*/
 }
 	
 #header{
 	z-index: 9999;
+        cursor: default;
 	position:relative;
 	height: 150px;
 	padding-top: 80px;
@@ -74,6 +62,7 @@ body{
 }
 
 #right_content {
+    cursor: default;
     z-index: 9998;
     position:relative;
 }
@@ -134,11 +123,14 @@ body{
     
 }
 
-#menu_option1:hover, #menu_option2:hover, #menu_option3:hover, #menu_option4:hover { background-color: #8DCE02;}
+
+
+#menu_option1:hover, #menu_option2:hover, #menu_option3:hover, #menu_option4:hover { background-color: #8DCE02; cursor: default;}
 
 .menu_selected {
     background-color: #8DCE02;
 }
+
 
 
 /** 
@@ -163,13 +155,14 @@ body{
 }
 
 #copyright{
+    cursor: default;
     float:left;
-    width: 47%;
+    width: 65%;
     padding: 0 0 0 3%;
 }
 
 #social_right {
-    width: 40%;
+    width: 5%;
     float: left;
     padding: 0 3% 0 0;
 }
@@ -181,11 +174,13 @@ body{
 }
 
 #socialf{
+    cursor: default;
     float: left;
     width: 50%;
 }
 
 #socialt{
+    cursor: default;
     float: left;
     width: 50%;
 }
@@ -239,25 +234,25 @@ body{
 	#title_first_letter{
 		color: #8DCE02;	
 		font-family: 'Candal', sans-serif;
-		font-size: 40px;
+		font-size: 80px;
 	}
 	
 	#title{
 		font-family: 'Candal', sans-serif;
 		color: #9A9E93;
-		font-size: 30px;
+		font-size: 60px;
 	}
 	
 	#title_middle_sign{
 		color: #D9DAD7;
 		font-family: 'Cookie', cursive;
-		font-size: 60px;
+		font-size: 100px;
 		text-align:center;
 	}
 	
 	#title_middle_div{
 		text-align: left;	
-		height: 40px;
+		height: 80px;
 		padding: 2% 0 0 4%;
 	}
         
@@ -292,14 +287,14 @@ body{
        
         #copyright{
             float:left;
-            width: 30%;
+            width: 55%;
             padding: 0 0 0 3%;
             font-size: 13px;
         }
 
         #social_right {
-            width: 50%;
-            float: right;
+            width: 5%;
+            float: left;
             padding: 0 3% 0 0;
         }
 
@@ -326,41 +321,44 @@ body{
             width: 40%;
         }
 
-
 }
- 
-/* Landscape phones and down */
-@media (max-width: 480px) { 
-        
+
+/* iPhone5 */
+
+@media only screen 
+and (min-device-width : 320px)
+and (max-device-width : 568px) 
+and (orientation : landscape) {
+    
         #header{
                 z-index: 9999;
                 position:relative;
-                height: 50px;
-                padding-top: 20px;
+                height: 40px;
+                padding-top: 10px;
         }
 
 	#title_first_letter{
 		color: #8DCE02;	
 		font-family: 'Candal', sans-serif;
-		font-size: 40px;
+		font-size: 35px;
 	}
 	
 	#title{
 		font-family: 'Candal', sans-serif;
 		color: #9A9E93;
-		font-size: 30px;
+		font-size: 25px;
 	}
 	
 	#title_middle_sign{
 		color: #D9DAD7;
 		font-family: 'Cookie', cursive;
-		font-size: 60px;
+		font-size: 55px;
 		text-align:center;
 	}
 	
 	#title_middle_div{
 		text-align: center;	
-		height: 40px;
+		height: 35px;
 		padding: 2% 0 0 4%;
 	}
         
@@ -369,7 +367,7 @@ body{
             bottom: 0;
             right: 0;
             z-index: 1;
-            width: 55%;
+            width: 25%;
             height: auto; 
         }
 
@@ -385,14 +383,122 @@ body{
             width: 100%;
         }
         
+        #copyright{
+            float:left;
+            width: 30%;
+            padding: 0 0 0 3%;
+            font-size: 13px;
+        }
+
+        #social_right {
+            width: 5%;
+            float: left;
+            padding: 0 3% 0 0;       
+        }
+
+        #left_content {
+            width: 15%;
+            height: 100%;
+            float: left;    
+        }
+
+        #right_content {
+            width: 85%;
+            height: 100%;
+            float:left;
+        }
+            
         #row_title_text {
             font-size: 12px;
         }
+    
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) { 
         
-        #line {
-            height: 10px;
+        #header{
+                z-index: 9999;
+                position:relative;
+                height: 40px;
+                padding-top: 10px;
         }
 
+	#title_first_letter{
+		color: #8DCE02;	
+		font-family: 'Candal', sans-serif;
+		font-size: 35px;
+	}
+	
+	#title{
+		font-family: 'Candal', sans-serif;
+		color: #9A9E93;
+		font-size: 25px;
+	}
+	
+	#title_middle_sign{
+		color: #D9DAD7;
+		font-family: 'Cookie', cursive;
+		font-size: 55px;
+		text-align:center;
+	}
+	
+	#title_middle_div{
+		text-align: center;	
+		height: 35px;
+		padding: 2% 0 0 4%;
+	}
+        
+        #div_bol{
+            position:fixed;
+            bottom: 0;
+            right: 0;
+            z-index: 1;
+            width: 45%;
+            height: auto; 
+        }
+
+        #img_bol{
+                width: 100%;
+                height: 100%;
+        }
+        
+        #row_text{
+            z-index: 9997;
+            position:relative;
+            padding: 2% 0 0 3%;
+            width: 100%;
+        }
+        
+        #copyright{
+            float:left;
+            width: 30%;
+            padding: 0 0 0 3%;
+            font-size: 13px;
+        }
+
+        #social_right {
+            width: 5%;
+            float: left;
+            padding: 0 3% 0 0;       
+        }
+
+        #left_content {
+            width: 15%;
+            height: 100%;
+            float: left;    
+        }
+
+        #right_content {
+            width: 85%;
+            height: 100%;
+            float:left;
+        }
+            
+        #row_title_text {
+            font-size: 12px;
+        }
+    
 }
 
 

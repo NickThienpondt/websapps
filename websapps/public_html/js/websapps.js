@@ -6,7 +6,9 @@
 
 $(document).ready(function() {
     $('#menu_option1').addClass('menu_selected');
-    $('#row_title_text').html(  'Webs & Apps is een creatieve eenmanszaak opgericht in 2013. ' +
+    $('#row_title_text').html(  'Webs & Apps is een ' +
+                                '<span class="baseSentence">creatieve eenmanszaak </span>' +
+                                'opgericht in 2013. ' +
                                 'Door zijn schaal en "No Nonsense"-mentaliteit kan Webs & Apps er steeds naar streven om zijn producten af te leveren met de best mogelijke kwaliteit voor een betaalbare prijs. <br><br>' + 
                                 '<span class="baseSentence">No nonsense, just Quality!</span>');
         
