@@ -313,13 +313,22 @@ body{
 
         #socialf{
             float: left;
-            width: 40%;
+            width: 20px;
+height: 20px;
         }
 
         #socialt{
             float: left;
-            width: 40%;
+            width: 20px;
+height: 20px;
         }
+        
+        .social_img {
+            padding: 0 0 0 10px;
+            width: 100%;
+            height: 100%;
+        }
+        
 
 }
 
@@ -391,7 +400,8 @@ and (orientation : landscape) {
         }
 
         #social_right {
-            width: 5%;
+            width: 20px;
+            height: 20px;
             float: left;
             padding: 0 3% 0 0;       
         }
@@ -484,13 +494,13 @@ and (orientation : landscape) {
         }
 
         #left_content {
-            width: 15%;
+            width: 35%;
             height: 100%;
             float: left;    
         }
 
         #right_content {
-            width: 85%;
+            width: 65%;
             height: 100%;
             float:left;
         }
@@ -498,6 +508,20 @@ and (orientation : landscape) {
         #row_title_text {
             font-size: 12px;
         }
+        
+        #menu {
+            background-color: #D9DAD7;
+            margin: 0 !important;
+            height: 60%;
+            width: 70%;
+            margin: 10px 0 0 0 !important;
+         }
+         
+         #main_content {
+            width: 100%;
+            height: 200px;
+            margin: 20px 0 0 0;
+         }
     
 }
 
