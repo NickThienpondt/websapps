@@ -9,7 +9,7 @@ $(document).ready(function() {
     $('#row_title_text').html(  'Webs & Apps is een ' +
                                 '<span class="baseSentence">dynamische onderneming </span>' +
                                 'opgericht in 2013. ' +
-                                'Door zijn schaal en "No Nonsense"-mentaliteit kunnen wij er steeds naar streven om zijn producten af te leveren met de best mogelijke <span class="baseSentence">kwaliteit </span>voor een <span class="baseSentence">betaalbare prijs. </span> <br><br>' + 
+                                'Door zijn schaal en "No Nonsense"-mentaliteit kunnen wij er steeds naar streven om producten af te leveren met de best mogelijke <span class="baseSentence">kwaliteit </span>voor een <span class="baseSentence">betaalbare prijs. </span> <br><br>' + 
                                 '<span class="baseSentence">No nonsense, just Quality!</span>');
         
     //Clicked on element
@@ -19,7 +19,7 @@ $(document).ready(function() {
         $('#row_title_text').html(  'Webs & Apps is een ' +
                                 '<span class="baseSentence">dynamische onderneming </span>' +
                                 'opgericht in 2013. ' +
-                                'Door zijn schaal en "No Nonsense"-mentaliteit kunnen wij er steeds naar streven om zijn producten af te leveren met de best mogelijke <span class="baseSentence">kwaliteit </span>voor een <span class="baseSentence">betaalbare prijs. </span> <br><br>' + 
+                                'Door zijn schaal en "No Nonsense"-mentaliteit kunnen wij er steeds naar streven om producten af te leveren met de best mogelijke <span class="baseSentence">kwaliteit </span>voor een <span class="baseSentence">betaalbare prijs. </span> <br><br>' + 
                                 '<span class="baseSentence">No nonsense, just Quality!</span>');
     });
     $('#menu_option2').click(function() {
