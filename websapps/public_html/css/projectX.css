@@ -49,6 +49,16 @@ body{
 	height: 100%;
 }
 
+#socialimg{
+        width: 100%;
+        font-family: 'Bowlby One', cursive;
+}
+
+.bigsocial{
+        width: 20%;
+        height: auto;
+}
+
 /**
   * Content
 **/
@@ -130,8 +140,6 @@ body{
 .menu_selected {
     background-color: #8DCE02;
 }
-
-
 
 /** 
   * Footer
@@ -481,7 +489,7 @@ and (orientation : landscape) {
             bottom: 0;
             right: 0;
             z-index: 1;
-            width: 45%;
+            width: 40%;
             height: auto; 
         }
 
