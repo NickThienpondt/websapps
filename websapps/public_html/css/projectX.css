@@ -75,6 +75,14 @@ body{
     cursor: default;
     z-index: 9998;
     position:relative;
+    background-color: green;
+}
+
+#contact_form {
+    cursor: default;
+    z-index: 9998;
+    position:relative;
+    z-index: 1;
 }
 
 #row_text{
@@ -97,14 +105,14 @@ body{
 
 #main_content {
     width:100%;
-    height: 200px;
+    height: 100%;
 }
 
 #left_content {
     width: 20%;
     height: 100%;
     float: left;
-    
+    z-index: 999;
 }
 
 #right_content {
@@ -287,6 +295,13 @@ body{
             width: 40%;
         }
         
+        #contact_form {
+            z-index: 9997;
+            position:relative;
+            padding: 2% 0 0 3%;
+            width: 40%;
+        }
+        
         #row_title_text {
             font-size: 12px;
         }
@@ -400,6 +415,13 @@ and (orientation : landscape) {
             width: 100%;
         }
         
+        #contact_form {
+            z-index: 9997;
+            position:relative;
+            padding: 2% 0 0 3%;
+            width: 100%;
+        }
+        
         #copyright{
             float:left;
             width: 30%;
@@ -499,6 +521,13 @@ and (orientation : landscape) {
         }
         
         #row_text{
+            z-index: 9997;
+            position:relative;
+            padding: 2% 0 0 3%;
+            width: 100%;
+        }
+        
+        #contact_form {
             z-index: 9997;
             position:relative;
             padding: 2% 0 0 3%;
